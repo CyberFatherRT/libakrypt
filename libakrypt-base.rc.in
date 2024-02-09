@@ -1,0 +1,36 @@
+#include <windows.h>
+#include <commctrl.h>
+#include <richedit.h>
+
+//
+// Version Information resources
+//
+LANGUAGE 0, SUBLANG_NEUTRAL
+VS_VERSION_INFO VERSIONINFO
+    FILEVERSION     @HEAD_VERSION@,@MAIN_VERSION@,@MINOR_VERSION@,0
+    PRODUCTVERSION  @HEAD_VERSION@,@MAIN_VERSION@,0,0
+    FILEOS          VOS__WINDOWS32
+    FILETYPE        VFT_DLL
+    FILESUBTYPE     VFT2_UNKNOWN
+    FILEFLAGSMASK   0x00000017
+    FILEFLAGS       0x00000000
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "041904b0"
+        {
+            VALUE "CompanyName", "The Company Of Belles Lettres"
+            VALUE "FileDescription", "Crypto API for libakrypt Project"
+            VALUE "FileVersion", "@MINOR_VERSION@"
+            VALUE "InternalName", "akrypt-base library for Windows"
+            VALUE "LegalCopyright", "Copyright (c) 2014-2023 by Axel Kenzo"
+            VALUE "OriginalFilename", "akrypt-base.dll"
+            VALUE "ProductName", "akrypt-base"
+            VALUE "ProductVersion", "@MAJOR_VERSION@"
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x0419, 0x04B0
+    }
+}

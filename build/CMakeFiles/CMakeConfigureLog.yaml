@@ -1,0 +1,1967 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      The system is: Linux - 6.6.9-amd64 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/3.28.1/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/3.28.1/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-c2acE4"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-c2acE4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-c2acE4'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6d86e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6d86e.dir/build.make CMakeFiles/cmTC_6d86e.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-c2acE4'
+        Building C object CMakeFiles/cmTC_6d86e.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_6d86e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Debian 13.2.0-7' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-13-13.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/reproducible-path/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Debian 13.2.0-7) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6d86e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6d86e.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_6d86e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/cc4knYmu.s
+        GNU C17 (Debian 13.2.0-7) version 13.2.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 703503d3cc8534b91d53f31f2f813204
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6d86e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6d86e.dir/'
+         as -v --64 -o CMakeFiles/cmTC_6d86e.dir/CMakeCCompilerABI.c.o /tmp/cc4knYmu.s
+        GNU assembler version 2.41.90 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.41.90.20240115
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6d86e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6d86e.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_6d86e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d86e.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_6d86e.dir/CMakeCCompilerABI.c.o -o cmTC_6d86e 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Debian 13.2.0-7' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-13-13.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/reproducible-path/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Debian 13.2.0-7) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6d86e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6d86e.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccidOIWY.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_6d86e /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_6d86e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6d86e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6d86e.'
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-c2acE4'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/13/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/13/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-c2acE4']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6d86e/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_6d86e.dir/build.make CMakeFiles/cmTC_6d86e.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-c2acE4']
+        ignore line: [Building C object CMakeFiles/cmTC_6d86e.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_6d86e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 13.2.0-7' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-13-13.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/reproducible-path/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (Debian 13.2.0-7) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6d86e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6d86e.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_6d86e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/cc4knYmu.s]
+        ignore line: [GNU C17 (Debian 13.2.0-7) version 13.2.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/13/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 703503d3cc8534b91d53f31f2f813204]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6d86e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6d86e.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_6d86e.dir/CMakeCCompilerABI.c.o /tmp/cc4knYmu.s]
+        ignore line: [GNU assembler version 2.41.90 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.41.90.20240115]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6d86e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6d86e.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_6d86e]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d86e.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_6d86e.dir/CMakeCCompilerABI.c.o -o cmTC_6d86e ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 13.2.0-7' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-13-13.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/reproducible-path/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (Debian 13.2.0-7) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6d86e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6d86e.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccidOIWY.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_6d86e /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_6d86e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccidOIWY.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_6d86e] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
+          arg [CMakeFiles/cmTC_6d86e.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13] ==> [/usr/lib/gcc/x86_64-linux-gnu/13]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-7qCq9Y"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-7qCq9Y"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-7qCq9Y'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_36f13/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_36f13.dir/build.make CMakeFiles/cmTC_36f13.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-7qCq9Y'
+        Building CXX object CMakeFiles/cmTC_36f13.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_36f13.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Debian 13.2.0-7' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-13-13.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/reproducible-path/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Debian 13.2.0-7) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_36f13.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_36f13.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_36f13.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/ccZ6G0Fo.s
+        GNU C++17 (Debian 13.2.0-7) version 13.2.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/13"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/13
+         /usr/include/x86_64-linux-gnu/c++/13
+         /usr/include/c++/13/backward
+         /usr/lib/gcc/x86_64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: f89b6cee94d3d0cc83bead007faf4c3c
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_36f13.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_36f13.dir/'
+         as -v --64 -o CMakeFiles/cmTC_36f13.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccZ6G0Fo.s
+        GNU assembler version 2.41.90 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.41.90.20240115
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_36f13.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_36f13.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_36f13
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36f13.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_36f13.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_36f13 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Debian 13.2.0-7' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-13-13.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/reproducible-path/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Debian 13.2.0-7) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_36f13' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_36f13.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWfR6Gy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_36f13 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_36f13.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_36f13' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_36f13.'
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-7qCq9Y'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/13]
+          add: [/usr/include/x86_64-linux-gnu/c++/13]
+          add: [/usr/include/c++/13/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/13] ==> [/usr/include/c++/13]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/13] ==> [/usr/include/x86_64-linux-gnu/c++/13]
+        collapse include dir [/usr/include/c++/13/backward] ==> [/usr/include/c++/13/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/13/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/13;/usr/include/x86_64-linux-gnu/c++/13;/usr/include/c++/13/backward;/usr/lib/gcc/x86_64-linux-gnu/13/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-7qCq9Y']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_36f13/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_36f13.dir/build.make CMakeFiles/cmTC_36f13.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-7qCq9Y']
+        ignore line: [Building CXX object CMakeFiles/cmTC_36f13.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_36f13.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 13.2.0-7' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-13-13.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/reproducible-path/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (Debian 13.2.0-7) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_36f13.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_36f13.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_36f13.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/ccZ6G0Fo.s]
+        ignore line: [GNU C++17 (Debian 13.2.0-7) version 13.2.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/13"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/13]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/13]
+        ignore line: [ /usr/include/c++/13/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/13/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: f89b6cee94d3d0cc83bead007faf4c3c]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_36f13.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_36f13.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_36f13.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccZ6G0Fo.s]
+        ignore line: [GNU assembler version 2.41.90 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.41.90.20240115]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_36f13.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_36f13.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_36f13]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36f13.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_36f13.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_36f13 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 13.2.0-7' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-13-13.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/reproducible-path/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (Debian 13.2.0-7) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_36f13' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_36f13.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWfR6Gy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_36f13 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_36f13.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccWfR6Gy.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_36f13] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
+          arg [CMakeFiles/cmTC_36f13.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13] ==> [/usr/lib/gcc/x86_64-linux-gnu/13]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake/DetectFlags.cmake:17 (check_c_compiler_flag)"
+      - "cmake/DetectFlags.cmake:37 (try_append_c_flag)"
+      - "CMakeLists.txt:99 (include)"
+    checks:
+      - "Performing Test AK_HAVE_WALL"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-pznoJz"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-pznoJz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -DAK_LITTLE_ENDIAN"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_WALL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-pznoJz'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_09a0f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_09a0f.dir/build.make CMakeFiles/cmTC_09a0f.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-pznoJz'
+        Building C object CMakeFiles/cmTC_09a0f.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_WALL  -DAK_LITTLE_ENDIAN    -Wall -o CMakeFiles/cmTC_09a0f.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-pznoJz/src.c
+        Linking C executable cmTC_09a0f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09a0f.dir/link.txt --verbose=1
+        /usr/bin/cc  -DAK_LITTLE_ENDIAN  CMakeFiles/cmTC_09a0f.dir/src.c.o -o cmTC_09a0f 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-pznoJz'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake/DetectFlags.cmake:17 (check_c_compiler_flag)"
+      - "cmake/DetectFlags.cmake:38 (try_append_c_flag)"
+      - "CMakeLists.txt:99 (include)"
+    checks:
+      - "Performing Test AK_HAVE_WPARENTHESES"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-RBMfsd"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-RBMfsd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_WPARENTHESES"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-RBMfsd'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8fd2a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8fd2a.dir/build.make CMakeFiles/cmTC_8fd2a.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-RBMfsd'
+        Building C object CMakeFiles/cmTC_8fd2a.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_WPARENTHESES  -DAK_LITTLE_ENDIAN -Wall    -Wparentheses -o CMakeFiles/cmTC_8fd2a.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-RBMfsd/src.c
+        Linking C executable cmTC_8fd2a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fd2a.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall  CMakeFiles/cmTC_8fd2a.dir/src.c.o -o cmTC_8fd2a 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-RBMfsd'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake/DetectFlags.cmake:17 (check_c_compiler_flag)"
+      - "cmake/DetectFlags.cmake:39 (try_append_c_flag)"
+      - "CMakeLists.txt:99 (include)"
+    checks:
+      - "Performing Test AK_HAVE_PEDANTIC_ERRORS"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-WYmQdS"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-WYmQdS"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_PEDANTIC_ERRORS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-WYmQdS'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9699e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9699e.dir/build.make CMakeFiles/cmTC_9699e.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-WYmQdS'
+        Building C object CMakeFiles/cmTC_9699e.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_PEDANTIC_ERRORS  -DAK_LITTLE_ENDIAN -Wall -Wparentheses    -pedantic-errors -o CMakeFiles/cmTC_9699e.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-WYmQdS/src.c
+        Linking C executable cmTC_9699e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9699e.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses  CMakeFiles/cmTC_9699e.dir/src.c.o -o cmTC_9699e 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-WYmQdS'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake/DetectFlags.cmake:17 (check_c_compiler_flag)"
+      - "cmake/DetectFlags.cmake:40 (try_append_c_flag)"
+      - "CMakeLists.txt:99 (include)"
+    checks:
+      - "Performing Test AK_HAVE_O3"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-OLWfA1"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-OLWfA1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_O3"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-OLWfA1'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5d103/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5d103.dir/build.make CMakeFiles/cmTC_5d103.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-OLWfA1'
+        Building C object CMakeFiles/cmTC_5d103.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_O3  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors    -O3 -o CMakeFiles/cmTC_5d103.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-OLWfA1/src.c
+        Linking C executable cmTC_5d103
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d103.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors  CMakeFiles/cmTC_5d103.dir/src.c.o -o cmTC_5d103 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-OLWfA1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake/DetectFlags.cmake:17 (check_c_compiler_flag)"
+      - "cmake/DetectFlags.cmake:41 (try_append_c_flag)"
+      - "CMakeLists.txt:99 (include)"
+    checks:
+      - "Performing Test AK_HAVE_PIPE"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-wdYo7l"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-wdYo7l"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_PIPE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-wdYo7l'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_03db3/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_03db3.dir/build.make CMakeFiles/cmTC_03db3.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-wdYo7l'
+        Building C object CMakeFiles/cmTC_03db3.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_PIPE  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3    -pipe -o CMakeFiles/cmTC_03db3.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-wdYo7l/src.c
+        Linking C executable cmTC_03db3
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03db3.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3  CMakeFiles/cmTC_03db3.dir/src.c.o -o cmTC_03db3 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-wdYo7l'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake/DetectFlags.cmake:17 (check_c_compiler_flag)"
+      - "cmake/DetectFlags.cmake:42 (try_append_c_flag)"
+      - "CMakeLists.txt:99 (include)"
+    checks:
+      - "Performing Test AK_HAVE_FUNROLL_LOOPS"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-L6tb9d"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-L6tb9d"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_FUNROLL_LOOPS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-L6tb9d'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_311cb/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_311cb.dir/build.make CMakeFiles/cmTC_311cb.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-L6tb9d'
+        Building C object CMakeFiles/cmTC_311cb.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_FUNROLL_LOOPS  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe    -funroll-loops -o CMakeFiles/cmTC_311cb.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-L6tb9d/src.c
+        Linking C executable cmTC_311cb
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_311cb.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe  CMakeFiles/cmTC_311cb.dir/src.c.o -o cmTC_311cb 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-L6tb9d'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:5 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_STDDEF_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-W5lTqM"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-W5lTqM"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-W5lTqM'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_75c0c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_75c0c.dir/build.make CMakeFiles/cmTC_75c0c.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-W5lTqM'
+        Building C object CMakeFiles/cmTC_75c0c.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_STDDEF_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_75c0c.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-W5lTqM/src.c
+        /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-W5lTqM/src.c: In function ‘main’:
+        /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-W5lTqM/src.c:4:12: warning: unused variable ‘ptr’ [-Wunused-variable]
+            4 |      void *ptr = NULL;
+              |            ^~~
+        Linking C executable cmTC_75c0c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75c0c.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_75c0c.dir/src.c.o -o cmTC_75c0c 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-W5lTqM'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:13 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_STDIO_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-D6bvPG"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-D6bvPG"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_STDIO_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-D6bvPG'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f6561/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f6561.dir/build.make CMakeFiles/cmTC_f6561.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-D6bvPG'
+        Building C object CMakeFiles/cmTC_f6561.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_STDIO_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_f6561.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-D6bvPG/src.c
+        Linking C executable cmTC_f6561
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6561.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_f6561.dir/src.c.o -o cmTC_f6561 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-D6bvPG'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:20 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_STDLIB_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-gKWgv8"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-gKWgv8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_STDLIB_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-gKWgv8'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3beea/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3beea.dir/build.make CMakeFiles/cmTC_3beea.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-gKWgv8'
+        Building C object CMakeFiles/cmTC_3beea.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_STDLIB_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_3beea.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-gKWgv8/src.c
+        Linking C executable cmTC_3beea
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3beea.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_3beea.dir/src.c.o -o cmTC_3beea 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-gKWgv8'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:27 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_STRING_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-ieyt0p"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-ieyt0p"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_STRING_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-ieyt0p'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5848d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5848d.dir/build.make CMakeFiles/cmTC_5848d.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-ieyt0p'
+        Building C object CMakeFiles/cmTC_5848d.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_STRING_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_5848d.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-ieyt0p/src.c
+        Linking C executable cmTC_5848d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5848d.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_5848d.dir/src.c.o -o cmTC_5848d 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-ieyt0p'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:34 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_STRINGS_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-XsTdSc"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-XsTdSc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_STRINGS_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-XsTdSc'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ada1d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ada1d.dir/build.make CMakeFiles/cmTC_ada1d.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-XsTdSc'
+        Building C object CMakeFiles/cmTC_ada1d.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_STRINGS_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_ada1d.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-XsTdSc/src.c
+        Linking C executable cmTC_ada1d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ada1d.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_ada1d.dir/src.c.o -o cmTC_ada1d 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-XsTdSc'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:41 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_CTYPE_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-keVv1J"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-keVv1J"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_CTYPE_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-keVv1J'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6a24e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6a24e.dir/build.make CMakeFiles/cmTC_6a24e.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-keVv1J'
+        Building C object CMakeFiles/cmTC_6a24e.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_CTYPE_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_6a24e.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-keVv1J/src.c
+        Linking C executable cmTC_6a24e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a24e.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_6a24e.dir/src.c.o -o cmTC_6a24e 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-keVv1J'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:48 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_ENDIAN_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-kJ20OQ"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-kJ20OQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_ENDIAN_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-kJ20OQ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0e065/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0e065.dir/build.make CMakeFiles/cmTC_0e065.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-kJ20OQ'
+        Building C object CMakeFiles/cmTC_0e065.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_ENDIAN_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_0e065.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-kJ20OQ/src.c
+        Linking C executable cmTC_0e065
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e065.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_0e065.dir/src.c.o -o cmTC_0e065 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-kJ20OQ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:63 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_TIME_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-RMzV2Z"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-RMzV2Z"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_TIME_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-RMzV2Z'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0dba6/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0dba6.dir/build.make CMakeFiles/cmTC_0dba6.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-RMzV2Z'
+        Building C object CMakeFiles/cmTC_0dba6.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_TIME_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_0dba6.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-RMzV2Z/src.c
+        Linking C executable cmTC_0dba6
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0dba6.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_0dba6.dir/src.c.o -o cmTC_0dba6 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-RMzV2Z'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:70 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_SYSTIME_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-Nz396A"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-Nz396A"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_SYSTIME_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-Nz396A'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5e2e9/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5e2e9.dir/build.make CMakeFiles/cmTC_5e2e9.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-Nz396A'
+        Building C object CMakeFiles/cmTC_5e2e9.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_SYSTIME_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_5e2e9.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-Nz396A/src.c
+        Linking C executable cmTC_5e2e9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e2e9.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_5e2e9.dir/src.c.o -o cmTC_5e2e9 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-Nz396A'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:77 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_SYSLOG_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-ibF99z"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-ibF99z"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_SYSLOG_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-ibF99z'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7501c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7501c.dir/build.make CMakeFiles/cmTC_7501c.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-ibF99z'
+        Building C object CMakeFiles/cmTC_7501c.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_SYSLOG_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_7501c.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-ibF99z/src.c
+        Linking C executable cmTC_7501c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7501c.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_7501c.dir/src.c.o -o cmTC_7501c 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-ibF99z'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:84 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_UNISTD_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-dGGZmU"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-dGGZmU"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-dGGZmU'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_50f9d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_50f9d.dir/build.make CMakeFiles/cmTC_50f9d.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-dGGZmU'
+        Building C object CMakeFiles/cmTC_50f9d.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_UNISTD_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_50f9d.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-dGGZmU/src.c
+        Linking C executable cmTC_50f9d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50f9d.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_50f9d.dir/src.c.o -o cmTC_50f9d 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-dGGZmU'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:91 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_FCNTL_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-kYCvJ9"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-kYCvJ9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_FCNTL_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-kYCvJ9'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_17c4b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_17c4b.dir/build.make CMakeFiles/cmTC_17c4b.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-kYCvJ9'
+        Building C object CMakeFiles/cmTC_17c4b.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_FCNTL_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_17c4b.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-kYCvJ9/src.c
+        Linking C executable cmTC_17c4b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17c4b.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_17c4b.dir/src.c.o -o cmTC_17c4b 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-kYCvJ9'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:98 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_LIMITS_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-aXv6Gb"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-aXv6Gb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_LIMITS_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-aXv6Gb'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_36ab6/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_36ab6.dir/build.make CMakeFiles/cmTC_36ab6.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-aXv6Gb'
+        Building C object CMakeFiles/cmTC_36ab6.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_LIMITS_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_36ab6.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-aXv6Gb/src.c
+        Linking C executable cmTC_36ab6
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36ab6.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_36ab6.dir/src.c.o -o cmTC_36ab6 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-aXv6Gb'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:105 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_SYSMMAN_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-OeUgMk"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-OeUgMk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_SYSMMAN_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-OeUgMk'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_46bfc/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_46bfc.dir/build.make CMakeFiles/cmTC_46bfc.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-OeUgMk'
+        Building C object CMakeFiles/cmTC_46bfc.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_SYSMMAN_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_46bfc.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-OeUgMk/src.c
+        Linking C executable cmTC_46bfc
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46bfc.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_46bfc.dir/src.c.o -o cmTC_46bfc 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-OeUgMk'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:112 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_SYSSTAT_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-nspthQ"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-nspthQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_SYSSTAT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-nspthQ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a8527/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a8527.dir/build.make CMakeFiles/cmTC_a8527.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-nspthQ'
+        Building C object CMakeFiles/cmTC_a8527.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_SYSSTAT_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_a8527.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-nspthQ/src.c
+        Linking C executable cmTC_a8527
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8527.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_a8527.dir/src.c.o -o cmTC_a8527 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-nspthQ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:119 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_SYSTYPES_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-txPe79"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-txPe79"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_SYSTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-txPe79'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cf842/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_cf842.dir/build.make CMakeFiles/cmTC_cf842.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-txPe79'
+        Building C object CMakeFiles/cmTC_cf842.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_SYSTYPES_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_cf842.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-txPe79/src.c
+        Linking C executable cmTC_cf842
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf842.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_cf842.dir/src.c.o -o cmTC_cf842 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-txPe79'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:126 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_SYSSOCKET_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-KKtSzc"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-KKtSzc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_SYSSOCKET_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-KKtSzc'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_eec18/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_eec18.dir/build.make CMakeFiles/cmTC_eec18.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-KKtSzc'
+        Building C object CMakeFiles/cmTC_eec18.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_SYSSOCKET_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_eec18.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-KKtSzc/src.c
+        Linking C executable cmTC_eec18
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eec18.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_eec18.dir/src.c.o -o cmTC_eec18 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-KKtSzc'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:133 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_SYSUN_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-rrnVfB"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-rrnVfB"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_SYSUN_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-rrnVfB'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_64f15/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_64f15.dir/build.make CMakeFiles/cmTC_64f15.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-rrnVfB'
+        Building C object CMakeFiles/cmTC_64f15.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_SYSUN_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_64f15.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-rrnVfB/src.c
+        /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-rrnVfB/src.c: In function ‘main’:
+        /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-rrnVfB/src.c:5:29: warning: unused variable ‘sock’ [-Wunused-variable]
+            5 |          struct sockaddr_un sock;
+              |                             ^~~~
+        Linking C executable cmTC_64f15
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64f15.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_64f15.dir/src.c.o -o cmTC_64f15 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-rrnVfB'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:143 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_SYSSELECT_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-Ej9VOe"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-Ej9VOe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_SYSSELECT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-Ej9VOe'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7d79e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7d79e.dir/build.make CMakeFiles/cmTC_7d79e.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-Ej9VOe'
+        Building C object CMakeFiles/cmTC_7d79e.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_SYSSELECT_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_7d79e.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-Ej9VOe/src.c
+        Linking C executable cmTC_7d79e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d79e.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_7d79e.dir/src.c.o -o cmTC_7d79e 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-Ej9VOe'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:150 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_ERRNO_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-CoT6WR"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-CoT6WR"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_ERRNO_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-CoT6WR'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7cdad/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7cdad.dir/build.make CMakeFiles/cmTC_7cdad.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-CoT6WR'
+        Building C object CMakeFiles/cmTC_7cdad.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_ERRNO_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_7cdad.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-CoT6WR/src.c
+        Linking C executable cmTC_7cdad
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cdad.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_7cdad.dir/src.c.o -o cmTC_7cdad 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-CoT6WR'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:157 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_TERMIOS_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-xxGvDb"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-xxGvDb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_TERMIOS_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-xxGvDb'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_202bd/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_202bd.dir/build.make CMakeFiles/cmTC_202bd.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-xxGvDb'
+        Building C object CMakeFiles/cmTC_202bd.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_TERMIOS_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_202bd.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-xxGvDb/src.c
+        Linking C executable cmTC_202bd
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_202bd.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_202bd.dir/src.c.o -o cmTC_202bd 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-xxGvDb'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:164 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_DIRENT_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-yI7CYp"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-yI7CYp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_DIRENT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-yI7CYp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9bbfc/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9bbfc.dir/build.make CMakeFiles/cmTC_9bbfc.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-yI7CYp'
+        Building C object CMakeFiles/cmTC_9bbfc.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_DIRENT_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_9bbfc.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-yI7CYp/src.c
+        /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-yI7CYp/src.c: In function ‘main’:
+        /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-yI7CYp/src.c:4:20: warning: variable ‘st’ set but not used [-Wunused-but-set-variable]
+            4 |      struct dirent st;
+              |                    ^~
+        Linking C executable cmTC_9bbfc
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bbfc.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_9bbfc.dir/src.c.o -o cmTC_9bbfc 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-yI7CYp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:173 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_FNMATCH_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-7wp2TD"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-7wp2TD"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_FNMATCH_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-7wp2TD'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f7632/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f7632.dir/build.make CMakeFiles/cmTC_f7632.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-7wp2TD'
+        Building C object CMakeFiles/cmTC_f7632.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_FNMATCH_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_f7632.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-7wp2TD/src.c
+        Linking C executable cmTC_f7632
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7632.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_f7632.dir/src.c.o -o cmTC_f7632 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-7wp2TD'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:180 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_STDALIGN_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-IHaMOa"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-IHaMOa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_STDALIGN_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-IHaMOa'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cbf78/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_cbf78.dir/build.make CMakeFiles/cmTC_cbf78.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-IHaMOa'
+        Building C object CMakeFiles/cmTC_cbf78.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_STDALIGN_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_cbf78.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-IHaMOa/src.c
+        Linking C executable cmTC_cbf78
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbf78.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_cbf78.dir/src.c.o -o cmTC_cbf78 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-IHaMOa'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:187 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_STDARG_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-AXHJee"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-AXHJee"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_STDARG_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-AXHJee'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c4a8a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c4a8a.dir/build.make CMakeFiles/cmTC_c4a8a.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-AXHJee'
+        Building C object CMakeFiles/cmTC_c4a8a.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_STDARG_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_c4a8a.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-AXHJee/src.c
+        Linking C executable cmTC_c4a8a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4a8a.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_c4a8a.dir/src.c.o -o cmTC_c4a8a 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-AXHJee'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:194 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_WINDOWS_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-CCSn48"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-CCSn48"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_WINDOWS_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-CCSn48'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_babdc/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_babdc.dir/build.make CMakeFiles/cmTC_babdc.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-CCSn48'
+        Building C object CMakeFiles/cmTC_babdc.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_WINDOWS_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_babdc.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-CCSn48/src.c
+        /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-CCSn48/src.c:2:12: fatal error: windows.h: No such file or directory
+            2 |   #include <windows.h>
+              |            ^~~~~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_babdc.dir/build.make:78: CMakeFiles/cmTC_babdc.dir/src.c.o] Error 1
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-CCSn48'
+        gmake: *** [Makefile:127: cmTC_babdc/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:201 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_GETOPT_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-a7WTCa"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-a7WTCa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_GETOPT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-a7WTCa'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b9e65/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b9e65.dir/build.make CMakeFiles/cmTC_b9e65.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-a7WTCa'
+        Building C object CMakeFiles/cmTC_b9e65.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_GETOPT_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_b9e65.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-a7WTCa/src.c
+        Linking C executable cmTC_b9e65
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9e65.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_b9e65.dir/src.c.o -o cmTC_b9e65 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-a7WTCa'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:208 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_LOCALE_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-unzkGs"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-unzkGs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_LOCALE_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-unzkGs'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_25934/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_25934.dir/build.make CMakeFiles/cmTC_25934.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-unzkGs'
+        Building C object CMakeFiles/cmTC_25934.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_LOCALE_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_25934.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-unzkGs/src.c
+        Linking C executable cmTC_25934
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25934.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_25934.dir/src.c.o -o cmTC_25934 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-unzkGs'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:216 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_LIBINTL_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-KyXotP"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-KyXotP"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_LIBINTL_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-KyXotP'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cff32/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_cff32.dir/build.make CMakeFiles/cmTC_cff32.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-KyXotP'
+        Building C object CMakeFiles/cmTC_cff32.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_LIBINTL_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_cff32.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-KyXotP/src.c
+        Linking C executable cmTC_cff32
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cff32.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_cff32.dir/src.c.o -o cmTC_cff32 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-KyXotP'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:224 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_SIGNAL_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-Fa3FX4"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-Fa3FX4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_SIGNAL_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-Fa3FX4'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a2bbd/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a2bbd.dir/build.make CMakeFiles/cmTC_a2bbd.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-Fa3FX4'
+        Building C object CMakeFiles/cmTC_a2bbd.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_SIGNAL_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_a2bbd.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-Fa3FX4/src.c
+        Linking C executable cmTC_a2bbd
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2bbd.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_a2bbd.dir/src.c.o -o cmTC_a2bbd 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-Fa3FX4'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:231 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_BYTESWAP_H"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-gv07oe"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-gv07oe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_BYTESWAP_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-gv07oe'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_95333/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_95333.dir/build.make CMakeFiles/cmTC_95333.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-gv07oe'
+        Building C object CMakeFiles/cmTC_95333.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_BYTESWAP_H  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_95333.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-gv07oe/src.c
+        Linking C executable cmTC_95333
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95333.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_95333.dir/src.c.o -o cmTC_95333 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-gv07oe'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectHeaders.cmake:248 (check_c_source_compiles)"
+      - "CMakeLists.txt:100 (include)"
+    checks:
+      - "Performing Test AK_HAVE_SSIZE_T"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-KEfxJk"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-KEfxJk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_SSIZE_T"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-KEfxJk'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7e85f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7e85f.dir/build.make CMakeFiles/cmTC_7e85f.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-KEfxJk'
+        Building C object CMakeFiles/cmTC_7e85f.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_SSIZE_T  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_7e85f.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-KEfxJk/src.c
+        /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-KEfxJk/src.c: In function ‘main’:
+        /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-KEfxJk/src.c:4:14: warning: unused variable ‘x’ [-Wunused-variable]
+            4 |      ssize_t x = 0;
+              |              ^
+        Linking C executable cmTC_7e85f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e85f.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_7e85f.dir/src.c.o -o cmTC_7e85f 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-KEfxJk'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectIntrinsics.cmake:6 (check_c_source_compiles)"
+      - "CMakeLists.txt:101 (include)"
+    checks:
+      - "Performing Test AK_HAVE_BUILTIN_MULQ_GCC"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-YxRwM9"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-YxRwM9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_BUILTIN_MULQ_GCC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-YxRwM9'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d3541/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d3541.dir/build.make CMakeFiles/cmTC_d3541.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-YxRwM9'
+        Building C object CMakeFiles/cmTC_d3541.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_BUILTIN_MULQ_GCC  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  -o CMakeFiles/cmTC_d3541.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-YxRwM9/src.c
+        Linking C executable cmTC_d3541
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3541.dir/link.txt --verbose=1
+        /usr/bin/cc -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops  CMakeFiles/cmTC_d3541.dir/src.c.o -o cmTC_d3541 
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-YxRwM9'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectIntrinsics.cmake:24 (check_c_source_compiles)"
+      - "CMakeLists.txt:101 (include)"
+    checks:
+      - "Performing Test AK_HAVE_BUILTIN_CLMULEPI64"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-fjDbah"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-fjDbah"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops -DAK_HAVE_BUILTIN_MULQ_GCC"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_BUILTIN_CLMULEPI64"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-fjDbah'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_feab0/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_feab0.dir/build.make CMakeFiles/cmTC_feab0.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-fjDbah'
+        Building C object CMakeFiles/cmTC_feab0.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_BUILTIN_CLMULEPI64  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops -DAK_HAVE_BUILTIN_MULQ_GCC  -o CMakeFiles/cmTC_feab0.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-fjDbah/src.c
+        /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-fjDbah/src.c: In function ‘main’:
+        /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-fjDbah/src.c:5:18: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+            5 |    __m128i a, b, c;
+              |                  ^
+        /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-fjDbah/src.c:6:8: warning: ‘a’ is used uninitialized [-Wuninitialized]
+            6 |    c = _mm_clmulepi64_si128( a, b, 0x00 );
+              |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-fjDbah/src.c:5:12: note: ‘a’ was declared here
+            5 |    __m128i a, b, c;
+              |            ^
+        /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-fjDbah/src.c:6:8: warning: ‘b’ is used uninitialized [-Wuninitialized]
+            6 |    c = _mm_clmulepi64_si128( a, b, 0x00 );
+              |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-fjDbah/src.c:5:15: note: ‘b’ was declared here
+            5 |    __m128i a, b, c;
+              |               ^
+        In file included from /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-fjDbah/src.c:2:
+        /usr/lib/gcc/x86_64-linux-gnu/13/include/wmmintrin.h:116:1: error: inlining failed in call to ‘always_inline’ ‘_mm_clmulepi64_si128’: target specific option mismatch
+          116 | _mm_clmulepi64_si128 (__m128i __X, __m128i __Y, const int __I)
+              | ^~~~~~~~~~~~~~~~~~~~
+        /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-fjDbah/src.c:6:8: note: called from here
+            6 |    c = _mm_clmulepi64_si128( a, b, 0x00 );
+              |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        gmake[1]: *** [CMakeFiles/cmTC_feab0.dir/build.make:78: CMakeFiles/cmTC_feab0.dir/src.c.o] Error 1
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-fjDbah'
+        gmake: *** [Makefile:127: cmTC_feab0/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/DetectIntrinsics.cmake:40 (check_c_source_compiles)"
+      - "CMakeLists.txt:101 (include)"
+    checks:
+      - "Performing Test AK_HAVE_BUILTIN_MM256_SLL"
+    directories:
+      source: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-AaaoSN"
+      binary: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-AaaoSN"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops -DAK_HAVE_BUILTIN_MULQ_GCC"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/godfather/personal/Chef/ChefDesktop/libakrypt/cmake"
+    buildResult:
+      variable: "AK_HAVE_BUILTIN_MM256_SLL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-AaaoSN'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_04c7e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_04c7e.dir/build.make CMakeFiles/cmTC_04c7e.dir/build
+        gmake[1]: Entering directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-AaaoSN'
+        Building C object CMakeFiles/cmTC_04c7e.dir/src.c.o
+        /usr/bin/cc -DAK_HAVE_BUILTIN_MM256_SLL  -DAK_LITTLE_ENDIAN -Wall -Wparentheses -pedantic-errors -O3 -pipe -funroll-loops -DAK_HAVE_BUILTIN_MULQ_GCC  -o CMakeFiles/cmTC_04c7e.dir/src.c.o -c /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-AaaoSN/src.c
+        /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-AaaoSN/src.c: In function ‘main’:
+        /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-AaaoSN/src.c:9:12: warning: unused variable ‘m3’ [-Wunused-variable]
+            9 |    __m256i m3 = _mm256_sll_epi64( theta, count );
+              |            ^~
+        /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-AaaoSN/src.c:6:12: warning: unused variable ‘m2’ [-Wunused-variable]
+            6 |    __m256i m2 = _mm256_srli_epi64( theta, 63 );
+              |            ^~
+        /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-AaaoSN/src.c:5:12: warning: AVX vector return without AVX enabled changes the ABI [-Wpsabi]
+            5 |    __m256i theta = _mm256_setr_epi64x( 0x425, 0, 0, 0 );
+              |            ^~~~~
+        In file included from /usr/lib/gcc/x86_64-linux-gnu/13/include/immintrin.h:51,
+                         from /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-AaaoSN/src.c:2:
+        /usr/lib/gcc/x86_64-linux-gnu/13/include/avx2intrin.h:703:1: error: inlining failed in call to ‘always_inline’ ‘_mm256_sll_epi64’: target specific option mismatch
+          703 | _mm256_sll_epi64 (__m256i __A, __m128i __B)
+              | ^~~~~~~~~~~~~~~~
+        /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-AaaoSN/src.c:9:17: note: called from here
+            9 |    __m256i m3 = _mm256_sll_epi64( theta, count );
+              |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        /usr/lib/gcc/x86_64-linux-gnu/13/include/avx2intrin.h:787:1: error: inlining failed in call to ‘always_inline’ ‘_mm256_srli_epi64’: target specific option mismatch
+          787 | _mm256_srli_epi64 (__m256i __A, int __B)
+              | ^~~~~~~~~~~~~~~~~
+        /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-AaaoSN/src.c:6:17: note: called from here
+            6 |    __m256i m2 = _mm256_srli_epi64( theta, 63 );
+              |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        In file included from /usr/lib/gcc/x86_64-linux-gnu/13/include/immintrin.h:43:
+        /usr/lib/gcc/x86_64-linux-gnu/13/include/avxintrin.h:1419:1: error: inlining failed in call to ‘always_inline’ ‘_mm256_setr_epi64x’: target specific option mismatch
+         1419 | _mm256_setr_epi64x (long long __A, long long __B, long long __C,
+              | ^~~~~~~~~~~~~~~~~~
+        /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-AaaoSN/src.c:5:20: note: called from here
+            5 |    __m256i theta = _mm256_setr_epi64x( 0x425, 0, 0, 0 );
+              |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        /usr/lib/gcc/x86_64-linux-gnu/13/include/avx2intrin.h:703:1: error: inlining failed in call to ‘always_inline’ ‘_mm256_sll_epi64’: target specific option mismatch
+          703 | _mm256_sll_epi64 (__m256i __A, __m128i __B)
+              | ^~~~~~~~~~~~~~~~
+        /home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-AaaoSN/src.c:9:17: note: called from here
+            9 |    __m256i m3 = _mm256_sll_epi64( theta, count );
+              |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        gmake[1]: *** [CMakeFiles/cmTC_04c7e.dir/build.make:78: CMakeFiles/cmTC_04c7e.dir/src.c.o] Error 1
+        gmake[1]: Leaving directory '/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/CMakeScratch/TryCompile-AaaoSN'
+        gmake: *** [Makefile:127: cmTC_04c7e/fast] Error 2
+        
+      exitCode: 2
+...

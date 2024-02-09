@@ -1,0 +1,11 @@
+/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/akbase-static.dir
+/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/akrypt-static.dir
+/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/doc.dir
+/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/package.dir
+/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/package_source.dir
+/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/edit_cache.dir
+/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/rebuild_cache.dir
+/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/list_install_components.dir
+/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/install.dir
+/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/install/local.dir
+/home/godfather/personal/Chef/ChefDesktop/libakrypt/build/CMakeFiles/install/strip.dir
