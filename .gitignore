@@ -6,4 +6,5 @@ scratch*
 *.kdev4
 tags
 doc/conf.py
+build
 

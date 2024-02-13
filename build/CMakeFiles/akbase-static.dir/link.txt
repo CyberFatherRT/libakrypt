@@ -1,2 +1,0 @@
-/usr/bin/ar qc libakrypt-base.a "CMakeFiles/akbase-static.dir/source/ak_tools.c.o" "CMakeFiles/akbase-static.dir/source/ak_ini.c.o" "CMakeFiles/akbase-static.dir/source/ak_list.c.o" "CMakeFiles/akbase-static.dir/source/ak_file.c.o" "CMakeFiles/akbase-static.dir/source/ak_buffer.c.o" "CMakeFiles/akbase-static.dir/source/ak_base64.c.o"
-/usr/bin/ranlib libakrypt-base.a
