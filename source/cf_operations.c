@@ -159,7 +159,3 @@ int akrypt_decrypt(const Config* config) {
 
     return exitstatus;
 }
-
-void foo() {
-    printf("Hello from akrypt");
-}
