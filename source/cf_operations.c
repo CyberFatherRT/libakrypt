@@ -4,12 +4,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-/*
-*
-* kuznechik / magma - cbc, ctr, ofb, cfb
-*
-*/
-
 typedef enum {
     m_cbc,
     m_ctr,
